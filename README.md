@@ -11,9 +11,9 @@ To install and build
 
     git clone git@github.com:jasonswat/dokuwiki.git
     cd docker_dokuwiki
-    docker build -t jasonswat/dokuwiki2 --no-cache=false .
+    docker build -t jasonswat/dokuwiki --no-cache=false .
 
 To run image:
 -------------
 
-    docker run -d -p 80:80 jasonswat/dokuwiki2
+    docker run -d -p 80:80 jasonswat/dokuwiki
