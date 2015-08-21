@@ -10,7 +10,7 @@ To install and build
 -------------
 
     git clone git@github.com:jasonswat/dokuwiki.git
-    cd docker_dokuwiki
+    cd dokuwiki
     docker build -t jasonswat/dokuwiki --no-cache=false .
 
 To run image:
