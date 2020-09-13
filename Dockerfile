@@ -11,8 +11,8 @@ FROM ubuntu:14.04
 MAINTAINER jason.swat@gmail.com 
 
 # Set the version you want of Twiki
-ENV DOKUWIKI_VERSION 2015-08-10
-ENV DOKUWIKI_CSUM 675594518c378f43b32204c4b9073ffd 
+ENV DOKUWIKI_VERSION 2017-02-19 
+ENV DOKUWIKI_CSUM 208cf0c9437604ac5c5a9d82c64555cb 
 
 # Update & install packages
 RUN apt-get update && apt-get -y upgrade
